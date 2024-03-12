@@ -1,0 +1,201 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Raleway", sans-serif;
+}
+
+header,
+.title h1 {
+    font-weight: bolder;
+}
+
+header {
+    padding: 16px 0;
+    background-color: #141312;
+}
+
+header nav li {
+    display: inline;
+    margin-left: 16px;
+    font-size: 20px;
+}
+
+header nav li a {
+    color: #dbdbdb;
+    text-decoration: none;
+}
+
+header .container,
+section .comm,
+section .commR,
+section .contact {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header img{
+    height: 50px;
+}
+
+section{
+    border: solid;
+    border-color: #141312;
+    border-width: 1px 0;
+}
+
+section h2{
+    margin-bottom: 16px;
+    text-align: center;
+}
+
+section p{
+    margin-bottom: 8px;
+}
+
+section .comm,
+section .commR {
+    align-items: flex-start;
+    font-weight: 600;
+}
+
+section .comm img{
+    margin: auto;
+    border-radius: 20px;
+    width: 600px;
+    margin-right: 30px;
+}
+
+section .commR img{
+    margin: auto;
+    border-radius: 20px;
+    width: 600px;
+    margin-left: 30px;
+}
+
+section video{
+    border-radius: 20px;
+    margin-top: 8px;
+    width: 600px;
+    height: auto;
+}
+
+section nav {
+    margin: auto;
+    text-align: center;
+}
+
+section nav p{
+    padding: 8px 0;
+}
+
+section .comm audio {
+    margin-top: 8px;
+    margin-right: 30px;
+    width: 600px;
+}
+
+section .commR audio {
+    margin-top: 8px;
+    margin-left: 30px;
+    width: 600px;
+}
+
+.container,
+.title,
+.comm,
+.commR {
+    max-width: 1200px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.title {
+    text-align: center;
+    padding: 16px 0;
+    max-width: 100%;
+    background-color: #141312;
+    color: #dbdbdb;
+}
+
+#valtan{
+    color: #dbdbdb;
+    background-color: #254944;
+}
+
+#vykas{
+    color: #dbdbdb;
+    background-color: #45181b;
+}
+
+#kakul{
+    color: #dbdbdb;
+    background-color: #713b30;
+}
+
+#brel{
+    color: #dbdbdb;
+    background-color: #15192c;
+}
+
+#akkan{
+    color: #dbdbdb;
+    background-color: #20281f;
+}
+
+#thaemine{
+    color: #dbdbdb;
+    background-color: #090b0d;
+}
+
+#contact {
+    background-color: #141312;
+}
+
+#contact h2 {
+    padding: 2px 0;
+    color: #dbdbdb;
+}
+
+.contact-methods nav {
+    width: 976px;
+}
+
+.contact-methods li {
+    display: inline;
+}
+
+form input,
+form textarea,
+form button {
+    width: 320px;
+    margin-bottom: 8px;
+    padding: 8px;
+    border-radius: 20px;
+    font-size: 16px;
+    background-color: #dbdbdb;
+    color: #141312;
+}
+
+form button {
+    cursor: pointer;
+}
+
+form textarea {
+    width: 970px;
+    height: 50px;
+    resize: none;
+}
+
+form button:hover {
+    background-color: #141312;
+    color: #dbdbdb;
+}
+
+footer {
+    background-color: #141312;
+    color: #dbdbdb;
+    padding: 8px 0;
+    text-align: center;
+}
